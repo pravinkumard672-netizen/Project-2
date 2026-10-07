@@ -1,0 +1,14 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Upload a paper — CampusVault</title><link rel="stylesheet" href="style.css"></head><body data-page="upload"><header><a class="logo" href="index.html">CampusVault</a><nav><a href="browse.html">Browse</a><a href="upload.html">Upload</a></nav></header><main>
+<h2>Upload a paper</h2>
+<form id="upForm">
+<label>Major<input name="major" required placeholder="e.g. Computer Science"></label>
+<label>Degree<input name="degree" required placeholder="e.g. B.Tech"></label>
+<label>Semester<input name="semester" required placeholder="e.g. 3"></label>
+<label>Subject<input name="subject" required placeholder="e.g. Data Structures"></label>
+<label>Exam year<input name="year" placeholder="e.g. 2025"></label>
+<label>Title (optional)<input name="title" placeholder="e.g. End-sem paper"></label>
+<label class="full">File (PDF, JPG, PNG, WebP, max 5 MB)<input name="file" type="file" accept=".pdf,image/*" required></label>
+<button class="full" type="submit">Upload paper</button>
+</form>
+<p id="msg" role="status"></p>
+</main><script src="app.js"></script></body></html>
